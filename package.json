@@ -1,0 +1,19 @@
+{
+  "name": "js_tdd",
+  "version": "1.0.0",
+  "description": "biblioteca de teste",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github/kcire15/JS_TDD"
+  },
+  "keywords": [
+    "js",
+    "tdd"
+  ],
+  "author": "erick <kcires15@yahoo.com.br>",
+  "license": "MIT"
+}
