@@ -1,8 +1,30 @@
-const a = 3;
-const b = 2;
+// const a = 3;
+// const b = 2;
 
-function sum(){
-  return a+b
-}
+// function sum(){
+//   return a+b
+// }
 
-sum();
+// console.log(sum());
+
+//arrow function
+const ireland = ['Dublin', 'Galway', 'Cork'];
+
+const love = ireland.map(function(name) {
+  return `I love ${name}!`;
+});
+const loveArrow = ireland.map((name) => {
+  return `I love ${name}!`;
+});
+
+const loveArrowSingle = ireland.map(name => {
+  return `I love ${name}!`;
+});
+
+const loveArrowOneLine = ireland.map(name => `I love ${name}!`);
+
+const loveChain = ireland
+                         .filter(name => name == 'Dublin')
+                         .map(name => `I love ${name}!`);
+
+console.log(loveChain);
