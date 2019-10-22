@@ -27,4 +27,8 @@ const loveChain = ireland
                          .filter(name => name == 'Dublin')
                          .map(name => `I love ${name}!`);
 
+console.log(love);
+console.log(loveArrow);
+console.log(loveArrowSingle);
+console.log(loveArrowOneLine);
 console.log(loveChain);
